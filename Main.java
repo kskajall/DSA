@@ -178,19 +178,19 @@ public class Main {
 
 
 
-        DoubleEndedQueue object1 =  new DoubleEndedQueue(5);
+        DoubleEndedQueue object =  new DoubleEndedQueue(5);
 
-        object1.insertAtFront(10);
-        object1.insertAtFront(20);
-        object1.insertAtFront(30);
-        object1.insertAtFront(40);
-        object1.display();
-        object1.insertAtRear(5);
-        object1.display();
-        object1.deleteFromRear();
-        object1.display();
-        object1.deleteFromFront();
-        object1.display();
+        object.insertAtFront(10);
+        object.insertAtFront(20);
+        object.insertAtFront(30);
+        object.insertAtFront(40);
+        object.display();
+        object.insertAtRear(5);
+        object.display();
+        object.deleteFromRear();
+        object.display();
+        object.deleteFromFront();
+        object.display();
 
     }
 }
