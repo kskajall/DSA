@@ -178,7 +178,7 @@ public class Main {
 
 
 
-        DoubleEndedQueue object = /* new DoubleEndedQueue(5);
+        DoubleEndedQueue object =  new DoubleEndedQueue(5);
 
         object.insertAtFront(10);
         object.insertAtFront(20);
